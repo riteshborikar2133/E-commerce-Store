@@ -1,0 +1,33 @@
+.card {
+    border: 2px solid black;
+    text-align: center;
+    margin: 1rem;
+    background-color: white;
+    cursor: pointer;
+    width: 15rem;
+    /* height: 20rem; */
+}
+
+.card .card-img img {
+    height: 15rem;
+    width: 15rem;
+}
+
+.card .card-title {
+    background-color: black;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.21rem;
+}
+
+.card .card-text {
+    font-size: 1.1rem;
+    padding: 0.51rem;
+    color: black;
+}
+
+.card:hover {
+    position: relative;
+    top: -1px;
+    box-shadow: 2px 2px 2px gray;
+}

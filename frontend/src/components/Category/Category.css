@@ -1,0 +1,48 @@
+.category {
+    /* border: 2px solid black; */
+    margin: 2rem 2rem;
+    background-color: rgba(255, 255, 255, 0.616);
+    font-family: "Poppins", sans-serif;
+    padding: 2rem 1rem;
+}
+.category h2{   
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.category-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 0.2rem 0.2rem;
+}
+
+.category-frame .category-card{
+    /* border: 2px solid rgba(0, 0, 0, 0.285); */
+    border-radius: 10%;
+    text-align: center;
+    height: 10rem;
+    width: 10rem;
+    margin: 1.5rem 2.5rem;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    cursor: pointer;
+    /* background-color: aliceblue; */
+
+}
+
+.category-frame .category-card i{
+    font-size: 2rem;
+    color: #0000008f;
+    margin: 1.5rem;
+}
+
+.category-frame .category-card:hover{
+    background-color: rgb(25, 25, 25);
+}
+
+.category-frame .category-card:hover i, .category-frame .category-card:hover p{
+    color: wheat;
+}

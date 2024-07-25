@@ -1,0 +1,137 @@
+.productframe {
+    /* border: 1px solid red; */
+    margin: 2rem;
+    /* background-color: white; */
+    background: linear-gradient(#ffffff ,#ccd3cc);
+
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+}
+
+.productframe .frameleft {
+    background-color: white;
+    width: 48vw;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid rgb(222, 222, 222);
+    padding: 2rem;
+}
+
+.productframe .frameleft img {
+    height: auto;
+    width: 100%;
+}
+
+.productframe .frameright {
+    width: 48vw;
+    /* background: linear-gradient(#EAEAEA ,#DBDBDB,#F2F2F2,#ADA996); */
+    box-sizing: border-box;
+    padding: 2rem;
+    text-align: left;
+    line-height: 3rem;
+}
+
+.productframe .frameright h1 {
+    font-weight: 500;
+}
+
+.productframe .frameright h2 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.productframe .frameright h3 {
+    font-weight: 500;
+}
+
+.productframe .frameright p {
+    font-weight: 300;
+}
+
+.productframe .frameright p .rating {
+    background-color: green;
+    color: white;
+    padding: 0.2rem 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.productframe .frameright .button {
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    padding: 2rem 0rem;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.productframe .frameright .button .cart {
+    background: rgb(245, 123, 0);
+    text-transform: uppercase;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    padding: .6rem;
+    border-radius: .2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.productframe .frameright .button .buy {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 1rem;
+    cursor: pointer;
+    padding: .6rem;
+    border-radius: .2rem;
+    border: none;
+    background-color: green;
+    color: white;
+    margin: 0 2rem;
+}
+
+
+.productframe .frameright .desc {
+    padding: 1rem 0;
+    margin-bottom: 1rem;
+    line-height: 1.7rem;
+    text-align: justify;
+}
+
+.productframe .frameright .featureframe {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 2rem;
+}
+
+.productframe .frameright .featureframe .feature {
+    /* border: 1px solid blue; */
+    line-height: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.productframe .frameright .featureframe .feature i {
+    font-size: 1.52rem;
+}
+
+.productframe .frameright .featureframe .feature p {
+    font-size: 0.81rem;
+}
+
+.productframe .frameright .reviewframe{
+    /* border: 1px solid red; */
+    border-radius: .3rem;
+    line-height: 2rem;
+    background-color: white;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.productframe .frameright .reviewframe .reviewemail{
+    background-color: black;
+    text-align: center;
+    color: white;
+}

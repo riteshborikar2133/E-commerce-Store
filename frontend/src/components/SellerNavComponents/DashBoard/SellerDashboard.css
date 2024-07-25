@@ -1,0 +1,32 @@
+.sellercardholder{
+    /* border: 1px saddlebrown solid; */
+    display: flex; 
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 1.5rem 1rem;
+    box-sizing: border-box;
+}
+
+.sellercardholder .sellercard{
+    background: #F1F8E8;
+    height: 10rem;
+    box-shadow: 0.51px 0.51px 5px gray;
+    
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.21rem;
+}
+
+.sellercardholder .sellercard  .card-reading{
+    /* border: 1px solid red; */
+    font-size: 2rem;
+}
+
+.sellercardholder .sellercard:hover{
+    border: 1px solid black;
+}

@@ -1,0 +1,56 @@
+.Cart-Container {
+    font-family: "Poppins", sans-serif;
+    padding: 2rem;
+    /* background: rgb(82, 82, 82); */
+    /* color: white/; */
+    display: flex;
+}
+
+.Cart-Container .Cart-Container-left {
+    width: 50vw;
+    /* border: 1px solid red; */
+    background: rgb(44, 44, 44);
+    padding: 2rem;
+    color: white;
+}
+
+.Cart-Container .Cart-Container-left .cart {
+    background: white;
+    margin: 1rem;
+    padding: 1rem;
+    /* border: 1px solid red; */
+    border-radius: .2rem;
+    display: flex;
+    color: #000;
+    /* cursor: pointer;s */
+    align-items: center;
+}
+
+.Cart-Container .Cart-Container-left .cart .cartimg {
+    width: 40%;
+    text-align: center;
+}
+
+.Cart-Container .Cart-Container-left .cart .cartimg img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.Cart-Container .Cart-Container-left .cart .cartinfo {
+    line-height: 2.5rem;
+}
+.Cart-Container .Cart-Container-left .cart .cartinfo h3 {
+    cursor: pointer;
+}
+.Cart-Container .Cart-Container-left .cart .cartinfo h3:hover {
+    color: blue;
+}
+.Cart-Container .Cart-Container-left .cart .cartinfo button {
+    background: red;
+    padding: 0.3rem 0.71rem;
+    border-radius: .2rem;
+    color: white;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    border: 2px solid black;
+}

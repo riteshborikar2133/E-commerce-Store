@@ -1,0 +1,16 @@
+.heading {
+    margin: 0rem 1rem;
+    font-size: 1.42rem;
+    /* font-style: italic; */
+    font-weight: bold;
+    background-color: rgb(40, 40, 40);
+    background: linear-gradient(120deg, rgb(26, 26, 26) 50%, rgb(237, 240, 244)  50%);
+    /* background: rgb(5, 208, 208); */
+    /* margin-bottom: 0; */
+    color: rgb(199, 199, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.4rem 1.2rem;
+    margin-top: 1rem;
+    border-radius: 0.2rem 0.2rem 0 0;
+    margin-top: 3rem;
+}

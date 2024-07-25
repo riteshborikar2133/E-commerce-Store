@@ -1,0 +1,83 @@
+.buyframe {
+    display: flex;
+    margin: 2rem;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+.buyframe .buyleft {
+    background: white;
+    margin: 1rem;
+    border: 1px saddlebrown solid;
+    width: 60vw;
+}
+
+.buyframe .buyleft .buyform {
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.buyframe .buyleft .buyform input,
+.buyframe .buyleft .buyform select {
+    margin: .6rem 0;
+    display: block;
+    width: 30rem;
+    padding: 0.31rem;
+    font-size: 1rem;
+}
+
+.buyframe .buyleft .buyform button {
+    background-color: green;
+    padding: .5rem 1rem;
+    margin: 1.2rem 0;
+    color: white;
+    font-family: 'Poppins';
+    border: none;
+    border-radius: .2rem;
+    font-weight: 500;
+}
+
+
+.buyframe .buyleft .buyproduct {
+    display: flex;
+    border: 2px solid rgba(0, 0, 0, 0.467);
+    border-radius: 0.2rem;
+    margin: 2rem;
+    height: 20vh;
+    font-family: 'Poppins', sans-serif;
+    justify-content: left;
+    padding: 1rem;
+}
+
+.buyframe .buyleft .buyproduct .productimg {
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+}
+
+.buyframe .buyleft .buyproduct .productimg img {
+    height: 100%;
+    width: 50%;
+}
+
+
+.buyframe .buyright {
+    margin: 1rem;
+    padding: 1rem;
+    /* border: 1px saddlebrown solid; */
+    box-shadow: 0.2px 0.2px 5px black;
+    border-radius: 0.3rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+
+.buyframe .buyright table tr td {
+    text-align: right;
+    /* border: 1px solid rgb(181, 181, 181); */
+    padding: 0 1rem;
+}
+
+.buyframe .buyright table tr th {
+    padding: 1rem;
+    text-align: center;
+
+}

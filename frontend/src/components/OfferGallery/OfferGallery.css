@@ -1,0 +1,57 @@
+.og-frame {
+    /* background: rgb(40, 158, 58); */
+    background:linear-gradient(-90deg,#360033,#0b8793);
+    color: white;
+    font-family: "Poppins",sans-serif;
+    text-align: center;
+    margin: 2rem 2rem;
+    padding: 2rem 1rem;
+    transition: 0.2s;
+    opacity: 0.8;
+}
+.og-frame h2{   
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin: 1rem;
+}
+
+.og-container {
+    margin: 0 1rem;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+}
+
+.og-big {
+    /* background: url('https://img.freepik.com/free-photo/creative-reels-composition_23-2149711507.jpg'); */
+    /* border: 1px solid gold; */
+    background-size: cover;
+    height: 70vh;
+    width: 60vw;
+}
+
+.og-big img {
+    height: 70vh;
+    width: 60vw;
+}
+
+.og-small {
+    /* border: 1px solid green; */
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.og-small .og-small-img img {
+    height: 35vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.og-frame:hover{
+    background:linear-gradient(90deg,#360033,#0b8793);
+    opacity: 1;
+}

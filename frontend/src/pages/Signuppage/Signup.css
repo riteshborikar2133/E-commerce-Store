@@ -1,0 +1,104 @@
+.signupform {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    /* padding: 2rem; */
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+    height: 98vh;
+}
+
+.signupform form {
+    background-color: white;
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+    padding: 1.52rem;
+}
+
+.signupform form .formfield h2 {
+    margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.signupform form .formfield {
+    display: flex;
+    /* flex-direction: column; */
+    margin: 1.8rem;
+}
+
+
+.signupform form .formfield input[type="text"] {
+    /* border: none; */
+    font-size: 1rem;
+    border: 1px solid grey;
+    /* border-bottom: 2px solid black; */
+}
+
+.signupform form .formfield input[type="password"] {
+    border: none;
+    font-size: 1rem;
+    border-bottom: 2px solid black;
+    border: 1px solid grey;
+}
+
+.signupform form .formfield input[type="tel"] {
+    border: none;
+    font-size: 1rem;
+    border-bottom: 2px solid black;
+    border: 1px solid grey;
+}
+
+.signupform form .formfield input[type="submit"] {
+    border: none;
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.signupform form .formfield input[type="submit"]:hover {
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+}
+
+.signupform form .formfield select {
+    font-size: 1rem;
+    border: 1px solid grey;
+    margin: 0 0.9rem;
+    background: transparent;
+    padding: 0.51rem 1rem;
+
+}
+
+
+
+.signupform form .formfield input {
+    padding: 0.51rem 1rem;
+    margin: 0 0.9rem;
+}
+
+.signupform form .formfield a {
+    text-decoration: none;
+    padding: 0.51rem 1rem;
+    border: 1px solid black;
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    cursor: pointer;
+    margin: 0 0.9rem;
+
+    width: 50%;
+}
+
+.signupform form .formfield a:hover {
+    background: black;
+    color: white;
+}
